@@ -1,0 +1,47 @@
+.Form{
+    min-width: 383px;
+    min-height: 191px;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.input{
+    line-height: 1.333333px;
+    padding: 10px 12px 6px 12px;
+    font-size: 1.2rem;
+    height: 52px;
+    border: solid black 1px;
+    border-radius: 2;
+    margin-bottom: 10px;
+}
+
+.input:nth-child(2){
+    margin-bottom: 30px;
+}
+
+.botao{
+    background-color:#0073b1;
+    color:white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding:20px
+}
+
+::placeholder { 
+    color: black;
+    opacity: 1;
+    font-size: 1.5rem;
+}
+  
+a{
+    font-weight: bold;
+    color:#0073b1;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.span{
+    font-size: 1.2rem;
+
+}
